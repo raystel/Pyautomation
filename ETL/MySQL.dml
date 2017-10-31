@@ -1,0 +1,35 @@
+INSERT INTO etl.ETL_Job VALUES (
+  'MYSQL',
+  'TEST_TABLE',
+  1,
+  '',
+  '',
+  'SDM',
+  'S_TEST_TABLE',
+  'TEST_TABLE.PY',
+  '000001'
+);
+
+INSERT INTO etl.ETL_Job VALUES (
+  'SDM',
+  'SDM_TEST_TABLE',
+  1,
+  'MYSQL',
+  'TEST_TABLE',
+  'FDM',
+  'F_TEST_TABLE',
+  'S_TEST_TABLE.PY',
+  '000001'
+);
+
+INSERT INTO etl.ETL_Job VALUES (
+  'FDM',
+  'F_TEST_TABLE',
+  1,
+  'SDM',
+  'S_TEST_TABLE',
+  '',
+  '',
+  'F_TEST_TABLE.PY',
+  '000001'
+);

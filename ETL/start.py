@@ -1,0 +1,1 @@
+#!/usr/bin/python# -*- coding: utf-8 -*-import ETL.init as initimport ETL.receive as receiveif __name__ == '__main__':    init.make_dirs()    receive.receive_start()
