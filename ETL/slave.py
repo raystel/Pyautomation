@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-##执行Job脚本
+# 执行Job脚本
 
 import automation.bin.common as common
 import automation.bin.MySQL as MySQL
@@ -9,7 +9,7 @@ import automation.bin.MySQL as MySQL
 ssh = common.get_ssh()
 
 
-##连接至Linux服务器
+# 连接至Linux服务器
 
 def send_script_information_log_to_repository():
     pass
